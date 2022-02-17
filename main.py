@@ -23,7 +23,7 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "__**I'm MentionAll Bot**, I can mention almost all members in group or channel 👻\nClick **/help** for more information__",
+    "__ʜᴀʟʟᴏ ɴᴀᴍᴀ ᴋᴜ ɪᴋɪ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ, ᴀᴋᴜ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ʏᴀɴɢ ʙɪsᴀ ᴛᴀɢ sᴇᴍᴜᴀ ᴍᴇᴍʙᴇʀ ᴋᴇᴛɪᴋ /help ᴛᴇʀʟᴇʙɪʜ ᴅᴀʜᴜʟᴜ__",
     link_preview=False,
     buttons=(
       [
@@ -35,7 +35,7 @@ async def start(event):
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Help Menu of MentionAllBot**\n\nCommand: /tagall\n__You can use this command with text what you want to mention others.__\n`Example: /tagall or @all Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__."
+  helptext = "**ʜᴇʟᴘ ᴍᴇɴᴜ ɪᴋɪ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ**\n\nCommand: /tagall\n__ᴀɴᴅᴀ ᴅᴀᴘᴀᴛ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴘᴇʀɪɴᴛᴀʜ ɪɴɪ, ᴅᴀɴ ʙᴇʀɪ ᴛᴇxᴛ ʏᴀɴɢ ɪɴɢɪɴ ᴅɪ sᴀᴍᴘᴀɪ ᴋᴀɴ ᴋᴇᴘᴀᴅᴀ ᴍᴇᴍʙᴇʀ.__\n`ᴄᴏɴᴛᴏʜ: /tagall ᴀᴛᴀᴜ @all ᴏʜᴀʏᴏ ᴏɴɪɪᴄʜᴀɴ!`\n__ᴀɴᴅᴀ ᴅᴀᴘᴀᴛ ᴍᴇɴɢɢᴜɴᴀ ᴋᴀɴ ᴘᴇʀɪɴᴛᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ sᴇʙᴀɢᴀɪ ʙᴀʟᴀsᴀɴ ᴜɴᴛᴜᴋ ᴘᴇsᴀɴ ᴀᴘᴀᴘᴜɴ. ʙᴏᴛ ᴀᴋᴀɴ ᴍᴇɴᴀɴᴅᴀɪ ᴘᴇsᴀɴ ɪᴛᴜ ᴅᴀɴ ᴍᴇɴᴀɴᴅᴀɪ ᴘᴇɴɢɢᴜɴᴀ__."
   await event.reply(
     helptext,
     link_preview=False,
@@ -52,7 +52,7 @@ async def help(event):
 async def mentionall(event):
   chat_id = event.chat_id
   if event.is_private:
-    return await event.respond("__This command can be use in groups and channels!__")
+    return await event.respond("__ᴘᴇʀɪɴᴛᴀʜ ɪɴɪ ʜᴀɴʏᴀ ᴅᴀᴘᴀᴛ ᴅɪɢᴜɴᴀᴋᴀɴ ᴅɪ ɢʀᴜᴘ ᴀᴛᴀᴜ sᴀʟᴜʀᴀɴ!__")
   
   is_admin = False
   try:
