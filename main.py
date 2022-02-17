@@ -23,11 +23,11 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "__ʜᴀʟʟᴏ ɴᴀᴍᴀ ᴋᴜ ɪᴋɪ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ, ᴀᴋᴜ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ʏᴀɴɢ ʙɪsᴀ ᴛᴀɢ sᴇᴍᴜᴀ ᴍᴇᴍʙᴇʀ ᴋᴇᴛɪᴋ /help ᴛᴇʀʟᴇʙɪʜ ᴅᴀʜᴜʟᴜ__",
+    "__**ʜᴀʟʟᴏ ɴᴀᴍᴀ ᴋᴜ ᴢᴏʀᴏ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ ʙʏ : @kingswibu**, ᴀᴋᴜ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ʏᴀɴɢ ʙɪsᴀ ᴛᴀɢ sᴇᴍᴜᴀ ᴍᴇᴍʙᴇʀ ᴋᴇᴛɪᴋ /help ᴛᴇʀʟᴇʙɪʜ ᴅᴀʜᴜʟᴜ__",
     link_preview=False,
     buttons=(
       [
-        Button.url("GROUP", f"{peju}"),
+        Button.url("ADD ME", f"{peju}"),
         Button.url("OWNER", f"{memek}")
       ]
     )
@@ -35,7 +35,7 @@ async def start(event):
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**ʜᴇʟᴘ ᴍᴇɴᴜ ɪᴋɪ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ**\n\nCommand: /tagall\n__ᴀɴᴅᴀ ᴅᴀᴘᴀᴛ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴘᴇʀɪɴᴛᴀʜ ɪɴɪ, ᴅᴀɴ ʙᴇʀɪ ᴛᴇxᴛ ʏᴀɴɢ ɪɴɢɪɴ ᴅɪ sᴀᴍᴘᴀɪ ᴋᴀɴ ᴋᴇᴘᴀᴅᴀ ᴍᴇᴍʙᴇʀ.__\n`ᴄᴏɴᴛᴏʜ: /tagall ᴀᴛᴀᴜ @all ᴏʜᴀʏᴏ ᴏɴɪɪᴄʜᴀɴ!`\n__ᴀɴᴅᴀ ᴅᴀᴘᴀᴛ ᴍᴇɴɢɢᴜɴᴀ ᴋᴀɴ ᴘᴇʀɪɴᴛᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ sᴇʙᴀɢᴀɪ ʙᴀʟᴀsᴀɴ ᴜɴᴛᴜᴋ ᴘᴇsᴀɴ ᴀᴘᴀᴘᴜɴ. ʙᴏᴛ ᴀᴋᴀɴ ᴍᴇɴᴀɴᴅᴀɪ ᴘᴇsᴀɴ ɪᴛᴜ ᴅᴀɴ ᴍᴇɴᴀɴᴅᴀɪ ᴘᴇɴɢɢᴜɴᴀ__."
+  helptext = "**ʜᴇʟᴘ ᴍᴇɴᴜ ᴢᴏʀᴏ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ**\n\nCommand: /tagall\n__ᴀɴᴅᴀ ᴅᴀᴘᴀᴛ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴘᴇʀɪɴᴛᴀʜ ɪɴɪ, ᴅᴀɴ ʙᴇʀɪ ᴛᴇxᴛ ʏᴀɴɢ ɪɴɢɪɴ ᴅɪ sᴀᴍᴘᴀɪ ᴋᴀɴ ᴋᴇᴘᴀᴅᴀ ᴍᴇᴍʙᴇʀ.__\n`ᴄᴏɴᴛᴏʜ: /tagall ᴀᴛᴀᴜ @all ᴏʜᴀʏᴏ ᴏɴɪɪᴄʜᴀɴ!`\n__ᴀɴᴅᴀ ᴅᴀᴘᴀᴛ ᴍᴇɴɢɢᴜɴᴀ ᴋᴀɴ ᴘᴇʀɪɴᴛᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ sᴇʙᴀɢᴀɪ ʙᴀʟᴀsᴀɴ ᴜɴᴛᴜᴋ ᴘᴇsᴀɴ ᴀᴘᴀᴘᴜɴ. ʙᴏᴛ ᴀᴋᴀɴ ᴍᴇɴᴀɴᴅᴀɪ ᴘᴇsᴀɴ ɪᴛᴜ ᴅᴀɴ ᴍᴇɴᴀɴᴅᴀɪ ᴘᴇɴɢɢᴜɴᴀ__."
   await event.reply(
     helptext,
     link_preview=False,
